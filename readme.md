@@ -1,7 +1,7 @@
 
 # 基于微信小程序的视频点播平台
 
-> 学习过程中，遇到问题可以咨询作者。
+> 学习过程中，遇到问题可以咨询作者(vx:lengqin1024)。
  
 
 ## 功能介绍
@@ -32,3 +32,6 @@
 ## 截图预览
 
 
+![](https://raw.githubusercontent.com/geeeeeeeek/python_mini_video/master/images/aaa.jpg)
+
+![](https://raw.githubusercontent.com/geeeeeeeek/python_mini_video/master/images/ccc.jpg)
