@@ -1,0 +1,52 @@
+/* pages/detail/detail.wxss */
+.title {
+    font-size: 20px;
+    margin-left: 12px;
+    color:#111;
+}
+.count {
+    margin-top: 4rpx;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+    color: #333;
+}
+.desc {
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 14px;
+    color: #333;
+}
+
+.video {
+    width:100%;
+    max-height: 220px;
+}
+
+
+.i-list {
+    display: flex;
+    flex-direction: row;
+    gap:16rpx;
+    flex-wrap: wrap;
+}
+.i-item {
+    width:calc((100% - 16rpx) / 2);
+    background: #efefef;
+    height: 300rpx;
+}
+.i-cover {
+    width:100%;
+    height: 75%;
+}
+.i-title {
+    font-size: 14px;
+    color: #111;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.meta{
+    display: flex; flex-direction: row;
+    margin-top: 20rpx;
+}

@@ -1,0 +1,23 @@
+<view>
+    <video src="{{detailData.raw}}" class="video" id="myVideo" autoplay="true"></video>
+    <view class="title">{{detailData.title}}</view>
+    <view class="meta">
+        <text class="count">{{detailData.pv}}次观看</text>
+        <t-icon name="bookmark" size="48rpx" bind:click="onCollectTap" />
+        <text>{{detailData.collect_count}}</text>
+        <t-icon name="heart" size="48rpx" bind:click="onLikeTap" />
+        <text>{{detailData.wish_count}}</text>
+    </view>
+    <view class="desc">简介：{{detailData.description}}</view>
+    <t-divider />
+
+    <view style="margin: 10px 12px;">热门推荐</view>
+    <t-divider />
+
+    <view class="i-list">
+        <view class="i-item" wx:for="{{recommendData}}" wx:for-item="item" data-index="{{item.id}}" bind:tap="handleDetail">
+            <image class="i-cover" src="{{item.cover}}" mode="aspectFill" />
+            <view class="i-title">{{item.title}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+    <t-search class="i-search" model:value="{{keyword}}" placeholder="请输入关键词" />
+    <t-tabs class="i-tabs" sticky defaultValue="{{-1}}" bind:change="onTabsChange" bind:click="onTabsClick" t-class="custom-tabs">
+        <t-tab-panel wx:for="{{categoryData}}" wx:for-item="item" label="{{item.title}}" value="{{item.id}}" />
+    </t-tabs>
+
+    <view class="i-list">
+        <view class="i-item" wx:for="{{listData}}" wx:for-item="item"  data-index="{{item.id}}" bind:tap="handleDetail">
+            <image class="i-cover" src="{{item.cover}}" mode="aspectFill" />
+            <view class="i-title">{{item.title}}</view>
+        </view>
+    </view>
+
+
+</view>

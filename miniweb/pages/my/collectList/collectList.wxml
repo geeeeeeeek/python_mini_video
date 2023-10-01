@@ -1,0 +1,7 @@
+
+<view class="i-list">
+        <view class="i-item" wx:for="{{listData}}" wx:for-item="item"  data-index="{{item.id}}" bind:tap="handleDetail">
+            <image class="i-cover" src="{{item.cover}}" mode="aspectFill" />
+            <view class="i-title">{{item.title}}</view>
+        </view>
+    </view>

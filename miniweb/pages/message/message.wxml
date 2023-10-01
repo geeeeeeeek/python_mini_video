@@ -1,0 +1,8 @@
+<view>
+    <view wx:for="{{msgData}}" wx:for-item="item">
+        <view style="margin-left: 16rpx;">{{item.title}}</view>
+        <view style="font-size: 13px;color:#777; margin-top: 12rpx;margin-left: 16rpx;">{{item.create_time}}</view>
+        <t-divider />
+
+    </view>
+</view>

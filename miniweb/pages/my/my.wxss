@@ -1,0 +1,10 @@
+/* pages/my/my.wxss */
+
+.info-header {
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    margin: 16rpx 16rpx;
+    align-content: center;
+    align-items: center;
+}

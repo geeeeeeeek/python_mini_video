@@ -1,0 +1,11 @@
+<!--pages/my/my.wxml-->
+<view class="info-header">
+    <t-avatar class="avatar-example" image="{{image}}" />
+    <view>ddd</view>
+</view>
+<view style="margin-top: 60rpx;">
+    <view style="margin:16rpx;" bind:tap="onCollectEntryTap">我的收藏</view>
+    <t-divider />
+    <view style="margin:16rpx;"  bind:tap="onLikeEntryTap">我的喜欢</view>
+    <t-divider />
+</view>
